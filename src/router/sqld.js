@@ -14,17 +14,12 @@ export default {
     {
       path: 'database',
       name: 'database',
-      component: () => import('@/components/sqld/sqldSection/database.vue'),
+      component: () => import('@/components/sqld/sqldSection/SqldDatabase.vue'),
     },
     {
-      path: 'datamodeling',
-      name: 'datamodeling',
-      component: () => import('@/components/sqld/sqldSection/datamodeling.vue'),
-    },
-    {
-      path: 'schema',
-      name: 'schema',
-      component: () => import('@/components/sqld/sqldSection/schema.vue'),
+      path: 'entity',
+      name: 'entity',
+      component: () => import('@/components/sqld/sqldSection/SqldEntity.vue'),
     },
   ],
 }
