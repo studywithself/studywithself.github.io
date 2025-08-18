@@ -5,7 +5,7 @@
 
     <p class="pt-5">
       SQL은 데이터를 저장, 조작 및 검색하는 표준 언어입니다. <br />
-      본 문서는 <strong>MySQL</strong>을 기준으로 작성 되었습니다.
+      본 문서는 <strong>MySQL</strong>을 기준으로 작성되었습니다.
     </p>
 
     <p>
