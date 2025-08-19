@@ -9,6 +9,9 @@
       <router-link to="/sqld/attribute">속성</router-link>
       <router-link to="/sqld/tuple">튜플</router-link>
       <router-link to="/sqld/null">NULL과 0차이</router-link>
+      <router-link to="/sqld/key">식별자(Key)</router-link>
+      <router-link to="/sqld/normalization">정규화</router-link>
+      <router-link to="/sqld/normalization2">정규형</router-link>
     </ul>
   </div>
 </template>

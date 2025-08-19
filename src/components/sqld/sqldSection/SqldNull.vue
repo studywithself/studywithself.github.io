@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <div class="flex flex-col gap-5">
-    <h1 class="text-3xl font-bold">제목</h1>
+    <h1 class="text-3xl font-bold">NULL과 0의 차이</h1>
 
     <table class="border-collapse border border-gray-300 w-80 text-center">
       <thead>

@@ -36,5 +36,20 @@ export default {
       name: 'null',
       component: () => import('@/components/sqld/sqldSection/SqldNull.vue'),
     },
+    {
+      path: 'key',
+      name: 'key',
+      component: () => import('@/components/sqld/sqldSection/SqldKey.vue'),
+    },
+    {
+      path: 'normalization',
+      name: 'normalization',
+      component: () => import('@/components/sqld/sqldSection/SqldNormalization.vue'),
+    },
+    {
+      path: 'normalization2',
+      name: 'normalization2',
+      component: () => import('@/components/sqld/sqldSection/SqldNormalization2.vue'),
+    },
   ],
 }
