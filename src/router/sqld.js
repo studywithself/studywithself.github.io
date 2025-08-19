@@ -21,5 +21,20 @@ export default {
       name: 'entity',
       component: () => import('@/components/sqld/sqldSection/SqldEntity.vue'),
     },
+    {
+      path: 'attribute',
+      name: 'attribute',
+      component: () => import('@/components/sqld/sqldSection/SqldAttribute.vue'),
+    },
+    {
+      path: 'tuple',
+      name: 'tuple',
+      component: () => import('@/components/sqld/sqldSection/SqldTuple.vue'),
+    },
+    {
+      path: 'null',
+      name: 'null',
+      component: () => import('@/components/sqld/sqldSection/SqldNull.vue'),
+    },
   ],
 }

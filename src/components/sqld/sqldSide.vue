@@ -6,6 +6,9 @@
       <p class="select-none text-blue-500">1과목</p>
       <router-link to="/sqld/database">Database</router-link>
       <router-link to="/sqld/entity">Entity</router-link>
+      <router-link to="/sqld/attribute">속성</router-link>
+      <router-link to="/sqld/tuple">튜플</router-link>
+      <router-link to="/sqld/null">NULL과 0차이</router-link>
     </ul>
   </div>
 </template>
