@@ -12,6 +12,11 @@
       <router-link to="/sqld/key">식별자(Key)</router-link>
       <router-link to="/sqld/normalization">정규화</router-link>
       <router-link to="/sqld/normalization2">정규형</router-link>
+      <router-link to="/sqld/schema">스키마</router-link>
+      <router-link to="/sqld/relationship">관계</router-link>
+      <router-link to="/sqld/modeling">모델링</router-link>
+      <router-link to="/sqld/erd">ERD</router-link>
+      <router-link to="/sqld/transaction">트랜잭션</router-link>
     </ul>
   </div>
 </template>

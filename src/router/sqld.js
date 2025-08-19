@@ -51,5 +51,30 @@ export default {
       name: 'normalization2',
       component: () => import('@/components/sqld/sqldSection/SqldNormalization2.vue'),
     },
+    {
+      path: 'schema',
+      name: 'schema',
+      component: () => import('@/components/sqld/sqldSection/SqldSchema.vue'),
+    },
+    {
+      path: 'relationship',
+      name: 'relationship',
+      component: () => import('@/components/sqld/sqldSection/SqldRelationship.vue'),
+    },
+    {
+      path: 'modeling',
+      name: 'modeling',
+      component: () => import('@/components/sqld/sqldSection/SqldModeling.vue'),
+    },
+    {
+      path: 'erd',
+      name: 'erd',
+      component: () => import('@/components/sqld/sqldSection/SqldERD.vue'),
+    },
+    {
+      path: 'transaction',
+      name: 'transaction',
+      component: () => import('@/components/sqld/sqldSection/SqldTransaction.vue'),
+    },
   ],
 }

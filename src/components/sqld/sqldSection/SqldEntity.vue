@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <div class="flex flex-col gap-5">
-    <h1 class="text-3xl font-bold">Entity (엔터티)</h1>
+    <h1 class="text-3xl font-bold">엔터티 Entity</h1>
     <h2 class="text-blue-600 font-bold text-xl my-2">엔터티</h2>
     <table class="border-collapse border border-gray-300 w-80 text-center">
       <thead>

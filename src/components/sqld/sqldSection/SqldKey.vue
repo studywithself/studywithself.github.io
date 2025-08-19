@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <div class="flex flex-col gap-5">
-    <h1 class="text-3xl font-bold">식별자(Key)</h1>
+    <h1 class="text-3xl font-bold">식별자 Key</h1>
 
     <p>
       식별자는 엔터티를 대표할 수 있는 속성을 의미하며, 일반적으로 <strong class="text-blue-600">키(Key)</strong>라고 부릅니다. <br />

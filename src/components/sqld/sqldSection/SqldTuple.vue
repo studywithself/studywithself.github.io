@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <div class="flex flex-col gap-5">
-    <h1 class="text-3xl font-bold">튜플</h1>
+    <h1 class="text-3xl font-bold">튜플 Tuple</h1>
 
     <table class="border-collapse border border-gray-300 w-80 text-center">
       <thead>
