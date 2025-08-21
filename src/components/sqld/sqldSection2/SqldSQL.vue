@@ -1,0 +1,71 @@
+<script setup></script>
+<template>
+  <div class="flex flex-col gap-5">
+    <h1 class="text-3xl font-bold">SQL</h1>
+
+    <p>
+      Structured Query Language(SQL)은 관계형 데이터베이스를 관리하고 조작하는 데 사용되는 표준 언어입니다. <br />
+      주로 질의, 조작, 정의, 제어의 용도로 많이 사용합니다.
+    </p>
+
+    <h2 class="text-blue-600 font-bold text-xl my-2">DDL (Data Definition Language) / 정의어</h2>
+    <p>
+      데이터베이스의 <strong class="text-blue-600">구조</strong>를 정의하는 명령어입니다. <br />
+
+      여기서 구조는 데이터베이스, 스키마, 테이블 등을 포함한 <strong class="text-blue-600">전체적인 설계와 틀</strong>을 의미합니다. <br />
+
+      CREATE : 테이블같은 객체를 생성합니다. <br />
+
+      ALTER : 객체의 구조를 변경합니다. <br />
+
+      DROP : 객체를 삭제합니다. <br />
+
+      TRUNCATE : 테이블 구조는 남기고 내부 데이터를 삭제합니다.
+    </p>
+
+    <h2 class="text-blue-600 font-bold text-xl my-2">DML (Data Manipulation Language) / 조작어</h2>
+    <p>
+      데이터베이스 내의 <strong class="text-blue-600">데이터</strong>를 조작하는 명령어입니다. <br />
+
+      SELECT : 데이터를 검색합니다. <br />
+
+      INSERT : 새로운 데이터를 삽입합니다. <br />
+
+      UPDATE : 기존 데이터를 수정합니다. <br />
+
+      DELETE : 데이터를 삭제합니다. <br />
+
+      MERGE : (INSERT+UPDATE) 기능입니다. 테이블 병합 시 동작하며, <br />
+      대상 테이블에 데이터가 있다면 UPDATE, 없다면 INSERT를 상황에 맞게 변화합니다.
+    </p>
+
+    <h2 class="text-blue-600 font-bold text-xl my-2">DCL (Data Control Language) / 제어어</h2>
+    <p>
+      데이터의 <strong class="text-blue-600">접근 권한을 제어</strong>하는 명령어입니다. <br />
+
+      GRANT : 사용자에게 특정 권한을 부여합니다. <br />
+
+      REVOKE : 사용자에게 부여했던 권한을 회수합니다.
+    </p>
+
+    <h2 class="text-blue-600 font-bold text-xl my-2">TCL (Transaction Control Language)</h2>
+    <p>
+      <strong class="text-blue-600">트랜잭션을 제어</strong>하는 명령어입니다. <br />
+
+      트랜잭션은 작업 단위로 동작되며 전부 성공하거나 전부 실패하는 결과만 존재합니다. <br />
+
+      COMMIT : 트랜잭션의 변경 사항을 영구적으로 저장합니다. <br />
+
+      ROLLBACK : 트랜잭션의 변경 사항을 취소하고 이전 상태로 되돌립니다.
+    </p>
+
+    <h2 class="text-blue-600 font-bold text-xl my-2">DQL (Data Query Language)</h2>
+    <p>
+      <strong class="text-blue-600">SELECT</strong>는 <strong class="text-blue-600">DML</strong>에 포함 되는 것을 알았습니다. <br />
+
+      공식적인 문서로는 DML 소속이 맞으나, 종종 DQL로 구분하는 경우도 있습니다. <br />
+
+      다른 명령어와 다르게 데이터를 변형하지 않고 <strong class="text-blue-600">조회</strong> 역할만 수행하기 때문에, 분리되는 경향이 있습니다.
+    </p>
+  </div>
+</template>

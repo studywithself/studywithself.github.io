@@ -2,6 +2,7 @@ export default {
   path: '/sqld',
   component: () => import('@/components/sqld/sqldHome.vue'),
   children: [
+    // 1과목
     {
       path: '',
       redirect: '/sqld/overview',
@@ -75,6 +76,67 @@ export default {
       path: 'transaction',
       name: 'transaction',
       component: () => import('@/components/sqld/sqldSection/SqldTransaction.vue'),
+    },
+    // 2과목
+    {
+      path: 'relation',
+      name: 'relation',
+      component: () => import('@/components/sqld/sqldSection2/SqldRelation.vue'),
+    },
+    {
+      path: 'integrity',
+      name: 'integrity',
+      component: () => import('@/components/sqld/sqldSection2/SqldIntegrity.vue'),
+    },
+    {
+      path: 'sql',
+      name: 'sql',
+      component: () => import('@/components/sqld/sqldSection2/SqldSQL.vue'),
+    },
+    {
+      path: 'select',
+      name: 'select',
+      component: () => import('@/components/sqld/sqldSection2/SqldSelect.vue'),
+    },
+    {
+      path: 'alias',
+      name: 'alias',
+      component: () => import('@/components/sqld/sqldSection2/SqldAlias.vue'),
+    },
+    {
+      path: 'from',
+      name: 'from',
+      component: () => import('@/components/sqld/sqldSection2/SqldFrom.vue'),
+    },
+    {
+      path: 'function',
+      name: 'function',
+      component: () => import('@/components/sqld/sqldSection2/SqldFunction.vue'),
+    },
+    {
+      path: 'where',
+      name: 'where',
+      component: () => import('@/components/sqld/sqldSection2/SqldWhere.vue'),
+    },
+    {
+      path: 'groupby',
+      name: 'groupby',
+      component: () => import('@/components/sqld/sqldSection2/SqldGroupby.vue'),
+    },
+    {
+      path: 'having',
+      name: 'having',
+      component: () => import('@/components/sqld/sqldSection2/SqldHaving.vue'),
+    },
+    {
+      path: 'orderby',
+      name: 'orderby',
+      component: () => import('@/components/sqld/sqldSection2/SqldOrderby.vue'),
+    },
+    {
+      path: 'join',
+      name: 'join',
+      component: () => import('@/components/sqld/sqldSection2/SqldJoin.vue'),
     },
   ],
 }

@@ -17,6 +17,19 @@
       <router-link to="/sqld/modeling">모델링</router-link>
       <router-link to="/sqld/erd">ERD</router-link>
       <router-link to="/sqld/transaction">트랜잭션</router-link>
+      <p class="select-none text-blue-500">2과목</p>
+      <router-link to="/sqld/relation">관계형 데이터베이스</router-link>
+      <router-link to="/sqld/integrity">무결성</router-link>
+      <router-link to="/sqld/sql">SQL</router-link>
+      <router-link to="/sqld/select">SELECT</router-link>
+      <router-link to="/sqld/alias">Alias(별칭)</router-link>
+      <router-link to="/sqld/from">FROM</router-link>
+      <router-link to="/sqld/function">함수</router-link>
+      <router-link to="/sqld/where">WHERE</router-link>
+      <router-link to="/sqld/groupby">GROUP BY</router-link>
+      <router-link to="/sqld/having">HAVING</router-link>
+      <router-link to="/sqld/orderby">ORDER BY</router-link>
+      <router-link to="/sqld/join">조인(JOIN)</router-link>
     </ul>
   </div>
 </template>
