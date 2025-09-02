@@ -1,15 +1,25 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import sqldRoutes from './sqld.js'
+import learningRoutes from './learning/learning.js'
 
 const router = createRouter({
   history: createWebHashHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      name: 'Home',
-      component: () => import('../components/Home.vue'),
+      name: 'home',
+      component: () => import('@/view/Home.vue'),
     },
-    sqldRoutes,
+    learningRoutes,
+    {
+      path: '/stack',
+      name: 'stack',
+      component: () => import('@/view/Stack.vue'),
+    },
+    {
+      path: '/projects',
+      name: 'projects',
+      component: () => import('@/view/Projects.vue'),
+    },
   ],
 })
 

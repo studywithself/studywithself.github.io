@@ -1,1 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Asta+Sans:wght@300..800&display=swap');
 @import 'tailwindcss';
+@custom-variant dark (&:where(.dark, .dark *));
+
+html,
+body,
+#app {
+  font-family: 'Asta Sans', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease;
+}
