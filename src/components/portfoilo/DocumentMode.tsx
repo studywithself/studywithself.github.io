@@ -168,7 +168,7 @@ export default function DocumentMode() {
                     <p className='pl-3'>참여인원 : 3명</p>
                     <p className='pl-3'>서비스 : 점포 재고 현황 실시간 확인 및 발주 요청 처리</p>
 
-                    <p className='pl-6'>· 본사의 전체 재고현황 조회 시, 느린 응답 문제 발생 및 데이터 처리로 평균 응답속도 개선</p>
+                    <p className='pl-6'>· 본사의 전체 재고현황 조회 시, N+1 문제로 인한 느린 응답 문제 발생. JPA Entity의 FetchType을 Lazy로 변경하고, 필요한 데이터만 선별적으로 조회하도록 개선 (약 80% 단축)</p>
                     <p className='pl-6'>· 지점 유통기한 만료 상품 폐기처리 개수 누락문제 처리</p>
                     <p className='pl-6'>· Spring JPA를 활용한 데이터베이스 처리로 데이터 처리 성능 개선</p>
                     <p className='pl-6'>· Git을 활용한 협업 환경 구축으로 코드 관리 효율성 증대</p>
@@ -179,10 +179,9 @@ export default function DocumentMode() {
                     <p className='pl-3'>참여인원 : 4명</p>
                     <p className='pl-3'>서비스 : 소규모 건설현장 산업재해 예방을 위한 안전관리 웹 플랫폼</p>
 
-                    <p className='pl-6'>· 부상자 발생 시 효율적인 출동을 위한 GPS 기반 위치 추적 시스템 구축</p>
-                    <p className='pl-6'>· 작업현장 자격 검증을 위한 알고리즘 설계</p>
+                    <p className='pl-6'>· 부상자 발생 시 효율적인 출동을 위한 KAKAO API활용 GPS 기반 위치 추적 시스템 구축</p>
+                    <p className='pl-6'>· 작업현장 자격 검증을 위한 수행완료별 레벨 체크 알고리즘 설계</p>
                     <p className='pl-6'>· nhn Cloud를 활용한 CI/CD 환경 구축</p>
-                    <p className='pl-6'>· Figma, Github, Notion을 활용한 기능 명세 및 내용을 문서화 및 커뮤니케이션을 주도하여 협업 기여</p>
 
                     <p className='font-bold pt-4 text-xl'>· 나만의 다이어리, 벼리</p>
                     <p className='pl-3'>일정 : 2025.12.22 ~ 2026.01.17</p>
